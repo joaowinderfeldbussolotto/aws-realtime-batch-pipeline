@@ -59,3 +59,13 @@ variable "notification_email" {
   description = "Email address for SNS notifications"
   type        = string
 }
+
+variable "raw_bucket_name" {
+  description = "Name of the raw data S3 bucket"
+  type        = string
+}
+
+variable "helper_bucket_name" {
+  description = "Name of the Athena results S3 bucket"
+  type        = string
+}

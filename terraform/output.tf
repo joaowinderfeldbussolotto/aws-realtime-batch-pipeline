@@ -13,3 +13,15 @@ output "sns_topic_arn" {
 output "kinesis_stream_arn" {
   value = module.kinesis.stream_arn
 }
+
+output "raw_crawler_name" {
+  value = module.glue_etl.raw_crawler_name
+}
+
+output "gold_crawler_name" {
+  value = module.glue_etl.gold_crawler_name
+}
+
+output "glue_job_name" {
+  value = module.glue_etl.job_name
+}
