@@ -140,7 +140,6 @@ FROM weather_gold.processed_weather
 GROUP BY year, month, day
 ORDER BY year, month, day;
 ```
-[Previous sections remain the same until Monitoring...]
 
 ## Key Architectural Decisions
 
