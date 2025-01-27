@@ -177,3 +177,6 @@ The alert thresholds provided (precipitation, wind speed, etc.) are samples that
 ├── glue_scripts/       # Glue ETL scripts
 └── scripts/            # Workflow automation scripts
 ```
+
+###  Project Inspiration
+This project was inspired by [Domine a Análise de Dados em Tempo Real com AWS]([https://www.udemy.com/course/real-time/](https://www.udemy.com/course/real-time/?srsltid=AfmBOorR1pH2REnWEpv5hi8gf9lk-LkdJ36BNOZ7DJvF2Zm9ULOQnuAT&couponCode=KEEPLEARNINGBR)) by Fernando Amaral on Udemy. While following the core architectural concepts from the course for real-time and batch data processing on AWS, this implementation extends the original project by incorporating Infrastructure as Code (IaC) using Terraform, enabling automated, version-controlled, and reproducible infrastructure deployment.
